@@ -5,7 +5,7 @@ import PyPDF2 as pdf
 from dotenv import load_dotenv
 load_dotenv()
 # os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="AIzaSyDfMAgDSmgo39xLm7U5VYsUJMgHK8ipu0c")
+genai.configure(api_key="  ")
 
 def generate_text_from_gemini(input):
     model=genai.GenerativeModel('gemini-pro')
